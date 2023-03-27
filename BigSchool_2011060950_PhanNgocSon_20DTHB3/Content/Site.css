@@ -1,4 +1,4 @@
-﻿body {
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -28,3 +28,30 @@ textarea {
     background-color: #1f8e6b;
     border-color: #fff
 }
+
+.navbar-inverse {
+     background-color: #3c763d; 
+     border-color: #fff; 
+}
+
+/*Course Layout*/
+.course{
+    list-style: none;
+}
+.course > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+.course > li .date{
+    text-align: center;
+    background-color: #d41d50;
+    color: white;
+    width: 60px;
+    border-radius: 8px;
+}
+.course > li .details{
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
